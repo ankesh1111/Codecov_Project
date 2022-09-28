@@ -1,0 +1,102 @@
+ 
+ p{
+    color: #6C757D;
+    font-size: 15px;
+     
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ #container{
+    display: flex;
+    margin: auto;
+    gap: 26px;
+    margin-left:320px;
+ }
+#container>.grab>img:hover{
+    color: green;
+    cursor: pointer;
+ }
+
+
+ /* second section */
+
+ h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+ }
+
+ #container1{
+    /* border: 1px solid red; */
+    margin: auto;
+    width:75%;
+    height: 300px;
+    display: flex;
+ }
+ #container1>div{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 300px;
+    margin: auto;
+ }
+ #container1>#src1>img{
+  
+    width: 450px;
+    height: 230px;
+    
+ }
+
+ /* Third section */
+
+ #container2{
+    /* border:  1px solid red; */
+    margin: auto;
+    width:75%;
+    height: 315px;
+    display: flex;
+ }
+ 
+ #container2>#con1{
+  /* border: 1px solid red; */
+  width: 450px;
+  height: 315px;
+  /* background-color: #b1b8be; */
+ }
+ #container2>#con1>img{
+    width: 15%;
+    gap:40px;
+    
+ }
+  
+ #container2>#con2{
+    /* border: 1px solid red; */
+    width:700px;
+    height: 230px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+   }
+
+
+
+   /* Fouth section */
+
+
+   #container3{
+       /* border: 1px solid red;  */
+      height: 350px;
+      width: 75%;
+      margin: auto;
+      display: flex;
+   }
+   #container3>div{
+       /* border: 1px solid red;   */
+      height: 350px;
+      width: 60%;
+      margin: auto;
+      background-color: rgb(248, 255, 253);
+   }
+  
+
+    
