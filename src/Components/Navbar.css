@@ -1,0 +1,21 @@
+
+ #nav{
+    border: 1px solid black;
+    height: 40px;
+    background-color: black;
+    color: #c7b8b8;
+
+
+ }
+ #nav>p{
+    /* border: 1px solid red; */
+    margin-top: 6px;
+    color: #dccfcf;
+ }
+ #nav>p:hover{
+    color: whitesmoke;
+   cursor: pointer;
+ }
+
+ /* Footer section */
+ 
