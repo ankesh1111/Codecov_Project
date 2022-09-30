@@ -1,0 +1,399 @@
+ 
+ p{
+    color: #6C757D;
+    font-size: 15px;
+     
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ #container{
+    display: flex;
+    margin: auto;
+    gap: 26px;
+    margin-left:320px;
+ }
+#container>.grab>img:hover{
+    color: green;
+    cursor: pointer;
+ }
+
+
+ /* second section */
+
+ h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+ }
+
+ #container1{
+    /* border: 1px solid red; */
+    margin: auto;
+    width:75%;
+    height: 300px;
+    display: flex;
+ }
+ #container1>div{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 300px;
+    margin: auto;
+ }
+ #container1>#src1>img{
+  
+    width: 450px;
+    height: 230px;
+    
+ }
+
+ /* Third section */
+
+ #container2{
+    /* border:  1px solid red;  */
+    margin: auto;
+    width:75%;
+    height: 315px;
+    display: flex;
+ }
+ 
+ #container2>#con1{
+  /* border: 1px solid red;  */
+  width: 450px;
+  height: 315px;
+  /* background-color: #b1b8be; */
+ }
+ #container2>#con1>img{
+    width: 15%;
+    gap:40px;
+    
+ }
+  
+ #container2>#con2{
+    /* border: 1px solid red;  */
+    width:700px;
+    height: 230px;
+    margin-top: 15px;
+    margin-left:10px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+   }
+
+
+
+   /* Fouth section */
+
+
+   #container3{
+       /* border: 1px solid red;  */
+      height: 350px;
+      width: 75%;
+      margin: auto;
+      display: flex;
+   }
+   #container3>div{
+       /* border: 1px solid red;   */
+      height: 350px;
+      width: 60%;
+      margin: auto;
+      background-color: rgb(248, 255, 253);
+   }
+
+   /* Five section */
+
+   #container4{
+      /* border: 1px solid red; */
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(3,1fr);
+      width: 220px;
+      height: 150px;
+      margin-left: 240px;
+   }
+   #container4>div{
+      /* border: 1px solid red; */
+      width: 220px;
+      height: 150px;
+     
+   }
+   #container4>div>img{
+     margin-left: 57px;
+   }
+
+
+   /* six section */
+
+   #container5{
+      /* border: 1px solid red; */
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(1,1fr);
+      width: 78%;
+      height: 350px;
+      margin: auto;
+     
+   }
+   #container5>div{
+      /* border: 1px solid red; */
+      width:90%;
+      height: 350px;
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   }
+
+   /* seven section */
+
+   #container6{
+      /* border: 1px solid red; */
+      height: 220px;
+      width: 50%;
+      margin: auto;
+      border-radius: 16px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+
+
+   /* Footer section */
+
+   #container7{
+      /* border: 1px solid red; */
+      height: 100px;
+      display: flex;
+      margin: auto;
+      background-color: #212529;
+   }
+   
+   #container7>div>img{
+      width: 25%;
+      margin-left:160px;
+      margin-top: 10px;
+      cursor: pointer;
+   }
+   #fa{
+      display: flex;
+      margin-left: 200px;
+      height: 100px;
+      width: 200px;
+      margin-left: 40px;
+      gap: 30px;
+   color: white;
+   cursor: pointer;
+   }
+   #fa>div{
+      height: 100px;
+      font-size: 25px;
+      margin-top: 25px;
+    }
+
+    /* Footer section 2 */
+
+    #container8{
+      /* border: 1px solid red; */
+      height: 270px;
+      width: 100%;
+       display: grid;
+       
+       background-color: #212529;
+       grid-template-columns: repeat(6,1fr);
+       grid-template-rows: repeat(1,1fr);
+       
+      margin: auto;
+      /* margin-left: 160px; */
+   
+    }
+    #container8>div{
+      height: 280px;
+      width: 20%;
+      margin: auto;
+      margin-left:160px;
+      /* border: 1px solid red; */
+      
+    }
+    #container8>.div1{
+      width: 130px;
+    }
+    #container8>.div2{
+       margin-left: 50px;
+       width: 130px;
+    }
+    #container8>.div3{
+      margin-left: 20px;
+      width: 130px;
+   }
+
+   #container8>.div4{
+      margin-left: -5px;
+      width: 130px;
+   }
+   #container8>.div5{
+      margin-left: -25px;
+      width: 130px;
+   }
+   #container8>.div6{
+      margin-left: -50px;
+      width: 130px;
+   }
+
+   .c1{
+      color:#FFFFFF;
+      cursor: pointer;
+      margin-left: -60px;
+      font-size: 16px;
+       
+   }
+   .c2{
+      color:#b9b2b2;
+      cursor: pointer;
+      
+   }
+.a1{
+   margin-left: -70px;
+}
+.a2{
+   margin-left: -50px;
+}
+.a3{
+   margin-left: -20px;
+}
+.a4{
+   margin-left: -105px;
+}
+.a5{
+   margin-left:-84px;
+}
+
+.b1{
+   margin-left: -50px;
+}
+
+.b2{
+   margin-left: -70px;
+}
+
+.b3{
+   margin-left: -80px;
+}
+
+.b4{
+   margin-left: -70px;
+}
+ 
+.d1{
+   margin-left: -67px;
+}
+
+.d2{
+   margin-left: -54px;
+}
+.d3{
+   margin-left: -59px;
+}
+.e1{
+   margin-left: -74px;
+}
+.e2{
+   margin-left: -106px;
+}
+ 
+.e3{
+   margin-left: -28px;
+}
+ 
+.g1{
+   margin-left: -95px;
+}
+.g2{
+   margin-left: -95px;
+}
+.g3{
+   margin-left: -77px;
+}
+.g4{
+   margin-left: -45px;
+}
+
+.j1{
+   margin-left: -90px;
+}
+.j2{
+   margin-left: -100px;
+   
+}
+.j3{
+   margin-left: -86px;
+   
+}
+
+/* Footer part 3 */
+
+#container9{
+   /* border: 1px solid red; */
+   display: flex;
+   width: 100%;
+   height: 80px;
+   background-color: #212529;
+
+}
+
+#container9>div{
+   /* border: 1px solid red; */
+   display: flex;
+   width: 28%;
+   height: 80px;
+}
+.V1{
+   margin-left: 160px;
+
+}
+.v2{
+  color: #bfb7b7;
+  background-color: #212529;
+}
+
+.V3{
+   color: #b9b2b2;
+   gap: 12px;
+   
+}
+.v4{
+   margin-top: 28px;
+}
+.V5{
+   color: #b9b2b2;
+   margin-left: 150px;
+   margin-top: 25px;
+}
+
+
+/* Signup page  */
+
+#container10{
+border: 1px soldi red;
+ display: flex;
+ height: 300px;
+ width: 100%;
+}
+ 
+.L1{
+   margin-top: 5px;
+   margin-left: -265px;
+}
+ 
+.L2{
+   margin-top: 5px;
+   margin-left: -267px;
+}
+ 
+.L3{
+   margin-top: 5px;
+   margin-left: -244px;
+}
+ 
+.L4{
+   margin-top: 5px;
+   margin-left: -236px;
+}
+.L5{
+   margin-top: 5px;
+   margin-left: -232px;
+}
