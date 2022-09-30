@@ -215,7 +215,7 @@ function Home(){
         <br />
         <br />
         
-        <Button width="170px" color="white" bgColor="#FF0077">View Customers</Button>
+        <Button width="170px" color="white"   colorScheme='pink'>View Customers</Button>
         
         <br />
         <br />
@@ -350,8 +350,8 @@ function Home(){
    <br />
    <br />
    
-   <Button as='b' height="50px"   width="270px" bgColor="black" color="white" marginTop="-30px"><Link to="./signup"> Get Started</Link></Button>
-   <Button curso as='b'  height="50px" width="270px" color="white" bgColor="#FF0077" marginLeft="30px" marginTop="-30px">Schedule Demo</Button>
+   <Button as='b' height="50px"   width="290px" bgColor="black" color="white" marginTop="-30px"><Link to="./login"> Get Started</Link></Button>
+   <Button  as='b'  height="50px" width="290px" color="white"   colorScheme='pink' marginLeft="30px" marginTop="-30px"><Link to="./signup">  Schedule Demo</Link></Button>
    
    <br />
    <br />

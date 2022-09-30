@@ -20,12 +20,12 @@ function Navbar(){
 
             <Box   bgColor='black.500' gap={5} display="flex" marginLeft="370px" marginTop="-175px">
             
-            <Text   fontSize='lg'><Link to="/product"> Product</Link> </Text>
-            <Text fontSize='lg'><Link to="/documentataion"> Documentataion</Link></Text>
-            <Text fontSize='lg'><Link to="/customers"> Customers </Link></Text>
-            <Text fontSize='lg'><Link to="/resources"> Resources</Link> </Text>
-            <Text fontSize='lg'><Link to="/pricing"> Pricing</Link> </Text>
-            <Text fontSize='lg'><Link to="/contact"> Contact </Link></Text>
+            <Text className="re1" fontSize='lg'><Link to="/product"> Product</Link> </Text>
+            <Text className="re1"  fontSize='lg'><Link to="/documentataion"> Documentataion</Link></Text>
+            <Text className="re1"  fontSize='lg'><Link to="/customers"> Customers </Link></Text>
+            <Text className="re1"  fontSize='lg'><Link to="/resources"> Resources</Link> </Text>
+            <Text className="re1"  fontSize='lg'><Link to="/pricing"> Pricing</Link> </Text>
+            <Text className="re1"  fontSize='lg'><Link to="/contact"> Contact </Link></Text>
                
             </Box>
 

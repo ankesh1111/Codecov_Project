@@ -1,4 +1,5 @@
  
+import React from "react";
 import {Routes, Route} from "react-router-dom"
 import Contact from "../Pages/Contact"
 import Customers from "../Pages/Customers"
@@ -14,7 +15,8 @@ import Signup from "../Pages/Signup"
 function AllRoutes(){
 
     return (
-         <Routes>
+        <div>
+          <Routes>
             <Route path="/" element={<Home/>}/> 
             <Route path="/product" element={<Product/>}/> 
             <Route path="/documentataion" element={<Documentataion/>}/> 
@@ -26,6 +28,8 @@ function AllRoutes(){
             <Route path="/signup" element={<Signup/>}/>
 
          </Routes>
+        </div>
+        
     )
 }
 export default AllRoutes

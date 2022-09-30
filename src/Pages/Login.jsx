@@ -1,3 +1,4 @@
+import { Box,Flex,Spacer } from "@chakra-ui/react"
 
 
 
@@ -5,9 +6,13 @@
 function Login(){
 
     return (
-        <div>
-            <h1>Contact</h1>
-        </div>
+        <Box>
+           <Box></Box>
+           <Box></Box>
+        </Box>
+    
+       
+      
     )
 }
 export default Login
