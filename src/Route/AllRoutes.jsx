@@ -6,6 +6,7 @@ import Customers from "../Pages/Customers"
 import Documentataion from "../Pages/Documentation"
 import Home from "../Pages/Home"
 import Login from "../Pages/Login"
+import Login1 from "../Pages/Login1";
 import Pricing from "../Pages/Pricing"
 import Product from "../Pages/Product"
 import Resources from "../Pages/Resources"
@@ -26,6 +27,7 @@ function AllRoutes(){
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/signup" element={<Signup/>}/>
+            <Route path="/login1" element={<Login1/>}/>
 
          </Routes>
         </div>

@@ -3,6 +3,7 @@ import {Box,  FormControl,Flex,Spacer,Image,Text,Input, Stack,Button, Alert} fro
 import "./Home.css"
 import Adobe from "../Image/Adobe.PNG"
 import { useState } from "react";
+import {Link} from "react-router-dom"
 
 function Signup(){
 
@@ -31,7 +32,7 @@ function Signup(){
 
      const newObj= {...user, id:new Date().getTime().toString()}
 
-     Alert("Signup Successfull")
+     alert("Signup Successfull")
      console.log(obj)
      setObj([...obj,newObj])
      console.log(obj)
@@ -39,10 +40,7 @@ function Signup(){
 
 
 
-
-
-
-    return (
+return (
         <Flex width="100%" height="625px" >
            <Box bgColor="#0F1B29" width="50%" height="625"   >
               
@@ -66,7 +64,7 @@ function Signup(){
         
       {/* <form action=""> */}
          
-        <FormControl onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
          <Stack   marginTop="40px" marginLeft="170px" width="340px" spacing={3}>
           
           <div class="L1"><p >First Name:</p></div>
@@ -86,7 +84,7 @@ function Signup(){
              onChange={handleChange}
              name="lastname"
            />
-           <div ><p className="L3" >Email Address:</p></div>
+           <div ><p class="L3" >Email Address:</p></div>
           
            <Input
              
@@ -95,7 +93,7 @@ function Signup(){
              onChange={handleChange}
              name="email"
            />
-           <div><p  className="L4">Phone Number:</p></div>
+           <div><p  class="L4">Phone Number:</p></div>
         
            <Input
              
@@ -113,10 +111,10 @@ function Signup(){
              onChange={handleChange}
              name="company"
            />
-           <Button  type="submit"   colorScheme='pink' color="white">Schedule Demo</Button>
+           <Button  type="submit"   colorScheme='pink' color="white"><Link to="/login">Schedule Demo</Link> </Button>
 
           </Stack>
-        </ FormControl>
+        </form>
         {/* </form> */}
         </Box>
     

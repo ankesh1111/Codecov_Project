@@ -133,18 +133,18 @@ function Home(){
          <div id="container2"  >
             <div id="con1">
                 <img   src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/flexible.svg" alt="" />
-                <Box mt="-50px"> <Text   ml="70px"  as='b' color="black" fontSize='2xl'>Flexible / Unified Reporting</Text></Box>
+                <Box cursor="pointer" mt="-50px"> <Text   ml="70px"  as='b' color="black" fontSize='2xl'>Flexible / Unified Reporting</Text></Box>
                
                 <br />
                 <br />
                 
                 <img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/seamless.svg" alt="" />
-               <Box mt="-50px"> <Text  ml="69px" as='b' color="black" fontSize='2xl'>Seamless Coverage Insights</Text></Box>
+               <Box cursor="pointer" mt="-50px"> <Text  ml="69px" as='b' color="black" fontSize='2xl'>Seamless Coverage Insights</Text></Box>
                
                 <br/>
                 <br />
                 <img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/robust.svg" alt="" />
-                 <Box mt="-50px"> <Text  ml="50px" as='b' color="black" fontSize='2xl'>Rebust Coverage Controls</Text></Box>
+                 <Box cursor="pointer" mt="-50px"> <Text  ml="50px" as='b' color="black" fontSize='2xl'>Rebust Coverage Controls</Text></Box>
                 
             </div>
             
@@ -155,10 +155,10 @@ function Home(){
                    <br />
 
 
-                    <Text ml="-250px" fontSize="lg" color="#FF0077">Source Code Coverage</Text>
-                    <Text  ml="-150px"  fontSize="lg"  color="#FF0077">20+ Langauage and CI/CD Agnostic</Text>
-                    <Text  ml="-307px" fontSize="lg"  color="#FF0077">Report Merging</Text>
-                    <Text  ml="-284px" fontSize="lg" color="#FF0077">Coverage Isolation</Text>
+                    <Text cursor="pointer" ml="-250px" fontSize="lg" color="#FF0077">Source Code Coverage</Text>
+                    <Text cursor="pointer"  ml="-150px"  fontSize="lg"  color="#FF0077">20+ Langauage and CI/CD Agnostic</Text>
+                    <Text cursor="pointer"  ml="-307px" fontSize="lg"  color="#FF0077">Report Merging</Text>
+                    <Text cursor="pointer"  ml="-284px" fontSize="lg" color="#FF0077">Coverage Isolation</Text>
             </div>
          </div>
 
