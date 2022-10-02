@@ -35,14 +35,23 @@ import shie from "../Image/shie.PNG"
  import third from "../Image/third.PNG"
 import Footer from "../Components/Footer"
  
- 
+ import { useContext } from "react";
+import { Navigate } from "react-router-dom";
+import { AuthContext } from "../Context/AuthContext";
  
 
 function Home(){
+    const { isAuth, toggleAuth } = useContext(AuthContext);
+
+    if (isAuth) {
+      return <Navigate to="/product" />;
+    }
     return (
         <Box color="grey.400">
+           
             {/* Navbar section */}
-            <Navbar/>
+            <Navbar />
+            <button onClick={toggleAuth}>LOGIN</button>
             <br />
             <br />
             
@@ -149,13 +158,13 @@ function Home(){
             </div>
             
             <div id="con2">
-                <Text as='a' color="black" fontSize="lg">As long as your code has tests and your coverage tool can output <br />
+                <Text as='a' color="#212529" fontSize="lg">As long as your code has tests and your coverage tool can output <br />
                     coverage results in a compatible format, you can use Codecov.</Text>
                     <br />
                    <br />
 
 
-                    <Text cursor="pointer" ml="-250px" fontSize="lg" color="#FF0077">Source Code Coverage</Text>
+                    <Text  cursor="pointer" ml="-250px" fontSize="lg" color="#FF0077">Source Code Coverage</Text>
                     <Text cursor="pointer"  ml="-150px"  fontSize="lg"  color="#FF0077">20+ Langauage and CI/CD Agnostic</Text>
                     <Text cursor="pointer"  ml="-307px" fontSize="lg"  color="#FF0077">Report Merging</Text>
                     <Text cursor="pointer"  ml="-284px" fontSize="lg" color="#FF0077">Coverage Isolation</Text>
@@ -344,13 +353,13 @@ function Home(){
    <Text  as='b' fontSize='3xl' color="black">Ready to get covered?</Text>
 
     <br />
-    <p>Join over a million developers in shipping healthier <br /> code today. Sign up with your code host below.</p>
+    <p color="#212529" >Join over a million developers in shipping healthier <br /> code today. Sign up with your code host below.</p>
 
    
    <br />
    <br />
    
-   <Button as='b' height="50px"   width="290px" bgColor="black" color="white" marginTop="-30px"><Link to="./login"> Get Started</Link></Button>
+   <Button as='b' height="50px"   width="290px" bgColor="black" colorScheme="BLACK" marginTop="-30px"><Link to="./login"> Get Started</Link></Button>
    <Button  as='b'  height="50px" width="290px" color="white"   colorScheme='pink' marginLeft="30px" marginTop="-30px"><Link to="./signup">  Schedule Demo</Link></Button>
    
    <br />

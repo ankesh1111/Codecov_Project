@@ -1,6 +1,7 @@
  
 import React from "react";
 import {Routes, Route} from "react-router-dom"
+import PrivateRoute from "../Components/PrivateRoute";
 import Contact from "../Pages/Contact"
 import Customers from "../Pages/Customers"
 import Documentataion from "../Pages/Documentation"
@@ -19,9 +20,24 @@ function AllRoutes(){
         <div>
           <Routes>
             <Route path="/" element={<Home/>}/> 
-            <Route path="/product" element={<Product/>}/> 
-            <Route path="/documentataion" element={<Documentataion/>}/> 
-            <Route path="/customers" element={<Customers/>}/>
+            <Route path="/product" element={
+              <PrivateRoute>
+                 <Product/>
+             </PrivateRoute>
+          
+            }/> 
+            <Route path="/documentataion" element={
+          <PrivateRoute>
+                    <Documentataion/>
+             </PrivateRoute>
+          
+            }/> 
+            <Route path="/customers" element={
+           <PrivateRoute>
+                   <Customers/>
+             </PrivateRoute>
+           
+            }/>
             <Route path="/resources" element={<Resources/>}/> 
             <Route path="/pricing" element={<Pricing/>}/>
             <Route path="/contact" element={<Contact/>}/>

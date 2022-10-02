@@ -54,6 +54,7 @@
     width:75%;
     height: 315px;
     display: flex;
+ 
  }
  
  #container2>#con1{
@@ -73,7 +74,7 @@
     width:700px;
     height: 230px;
     margin-top: 15px;
-    margin-left:10px;
+    margin-left:30px;
     border-radius: 10px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     
