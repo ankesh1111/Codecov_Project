@@ -41,17 +41,17 @@ import { AuthContext } from "../Context/AuthContext";
  
 
 function Home(){
-    const { isAuth, toggleAuth } = useContext(AuthContext);
+    // const { isAuth, toggleAuth } = useContext(AuthContext);
 
-    if (isAuth) {
-      return <Navigate to="/product" />;
-    }
+    // if (isAuth) {
+    //   return <Navigate to="/product" />;
+    // }
     return (
         <Box color="grey.400">
            
             {/* Navbar section */}
             <Navbar />
-            <button onClick={toggleAuth}>LOGIN</button>
+            {/* <button onClick={toggleAuth}>LOGIN</button> */}
             <br />
             <br />
             

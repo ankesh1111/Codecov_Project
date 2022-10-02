@@ -21,37 +21,37 @@ function AllRoutes(){
           <Routes>
             <Route path="/" element={<Home/>}/> 
             <Route path="/product" element={
-              <PrivateRoute>
+              // <PrivateRoute>
                  <Product/>
-             </PrivateRoute>
+            //  </PrivateRoute>
           
             }/> 
             <Route path="/documentataion" element={
-          <PrivateRoute>
+          // <PrivateRoute>
                     <Documentataion/>
-             </PrivateRoute>
+            //  </PrivateRoute>
           
             }/> 
             <Route path="/customers" element={
-           <PrivateRoute>
+          //  <PrivateRoute>
                    <Customers/>
-             </PrivateRoute>
+            //  </PrivateRoute>
            
             }/>
             <Route path="/resources" element={
-              <PrivateRoute>
+              // <PrivateRoute>
             <Resources/>
-            </PrivateRoute>
+            // </PrivateRoute>
             }/> 
             <Route path="/pricing" element={
-                <PrivateRoute>
+                // <PrivateRoute>
             <Pricing/>
-            </PrivateRoute>
+            // </PrivateRoute>
             }/>
             <Route path="/contact" element={
-                <PrivateRoute>
+                // <PrivateRoute>
             <Contact/>
-            </PrivateRoute>
+            // </PrivateRoute>
             }/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/signup" element={<Signup/>}/>
