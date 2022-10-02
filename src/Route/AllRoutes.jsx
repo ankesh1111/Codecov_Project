@@ -38,9 +38,21 @@ function AllRoutes(){
              </PrivateRoute>
            
             }/>
-            <Route path="/resources" element={<Resources/>}/> 
-            <Route path="/pricing" element={<Pricing/>}/>
-            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/resources" element={
+              <PrivateRoute>
+            <Resources/>
+            </PrivateRoute>
+            }/> 
+            <Route path="/pricing" element={
+                <PrivateRoute>
+            <Pricing/>
+            </PrivateRoute>
+            }/>
+            <Route path="/contact" element={
+                <PrivateRoute>
+            <Contact/>
+            </PrivateRoute>
+            }/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/signup" element={<Signup/>}/>
             <Route path="/login1" element={<Login1/>}/>
