@@ -26,13 +26,29 @@ improve our understanding of the React.
 
 ##   Home page 
  
-![page1](https://user-images.githubusercontent.com/92791586/187071182-50ba9664-c28e-4728-a1e1-9a0e2eccfe35.PNG)
-
-##  Signup Page
-![signup 2](https://user-images.githubusercontent.com/92791586/187071187-f3506b8b-0138-424c-aa42-7ae20f4514a0.PNG)
  
-## Login In
-![login 3](https://user-images.githubusercontent.com/92791586/187071173-4045e141-431b-4c05-aee9-1ee911be2a6c.PNG)
+![First page](https://user-images.githubusercontent.com/92791586/193463745-602f1b63-53d2-48a9-ac75-7de29bbdf8fc.PNG)
+
+ 
+
+## Signup Page
+
+
+
+##  Login Page
+ 
+![login 2](https://user-images.githubusercontent.com/92791586/193463905-e2425171-eb18-4f9a-9a16-40cb04d63b92.PNG)
  
 ## Product Page
+![Navbar](https://user-images.githubusercontent.com/92791586/193463979-b174a7a4-246b-49b6-9e63-5c038bc48187.PNG)
 
+ ![Product 1](https://user-images.githubusercontent.com/92791586/193463922-19ff63d2-bf12-4715-90fa-33fcd4e7091e.PNG)
+ 
+ ## Quick Sort Page
+![Quick sort](https://user-images.githubusercontent.com/92791586/193463930-7c4ea8dc-2b91-44f1-818d-138338765072.PNG) 
+
+ ## Customers Page
+
+![Customers](https://user-images.githubusercontent.com/92791586/193463874-e51f442a-7439-4ebb-b4aa-531caa463bbd.PNG)
+ ## Contact Page
+![Contact](https://user-images.githubusercontent.com/92791586/193463772-073f9652-4930-4a68-87ff-5c7b09620c68.PNG)
