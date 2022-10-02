@@ -32,19 +32,16 @@ improve our understanding of the React.
  
 
 ## Signup Page
-
-
-
+![scdule sign](https://user-images.githubusercontent.com/92791586/193464847-0ecf9c25-c492-4cf6-a18b-36ed9f284817.PNG)
 ##  Login Page
- 
-![login 2](https://user-images.githubusercontent.com/92791586/193463905-e2425171-eb18-4f9a-9a16-40cb04d63b92.PNG)
+ ![login page](https://user-images.githubusercontent.com/92791586/193464921-d6045380-d92b-4e26-9070-0d9d191c366a.PNG)
  
 ## Product Page
 ![Navbar](https://user-images.githubusercontent.com/92791586/193463979-b174a7a4-246b-49b6-9e63-5c038bc48187.PNG)
 
  ![Product 1](https://user-images.githubusercontent.com/92791586/193463922-19ff63d2-bf12-4715-90fa-33fcd4e7091e.PNG)
  
- ## Quick Sort Page
+ ## Documentation Page
 ![Quick sort](https://user-images.githubusercontent.com/92791586/193463930-7c4ea8dc-2b91-44f1-818d-138338765072.PNG) 
 
  ## Customers Page
