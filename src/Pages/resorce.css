@@ -1,0 +1,21 @@
+
+#i1{
+    /* border: 1px solid red; */
+    height: 460px;
+    width: 82%;
+    margin: auto;
+    display: flex;
+
+    gap: 10px;
+
+}
+#i1 div{
+    width: 30%;
+    height: 460px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+#i1 img{
+    width: 400px;
+}

@@ -9,6 +9,17 @@ import Imapct from "../Image/Imapct.PNG"
 import More from "../Image/More.PNG"
 import Multi from "../Image/Multi.PNG"
 import Check from "../Image/Check.PNG"
+import re1 from "../Image/re1.PNG"
+  
+ import re2 from "../Image/re2.PNG"
+  
+ import re3 from "../Image/re3.PNG"
+
+ import re4 from "../Image/re4.PNG"
+  
+ import re5 from "../Image/re5.PNG"
+  
+ import re6 from "../Image/re6.PNG"
 import Noti from "../Image/Noti.PNG"
 import "./Home.css"
 import {Link } from "react-router-dom"
@@ -26,11 +37,8 @@ function Pricing(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
-
+     
+     
        <Box display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
             <Image src={Imapct}/>
@@ -42,8 +50,51 @@ function Pricing(){
 
        <br />
        <br />
-       <br />
-       <br />
+     
+
+       <div id="i1">
+          <div>
+            <img src={re1}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="15px"> May Product Update: Browser Extension and Quality of Life Updates </Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re2}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> How To Maintain A Healthy Codebase Quality update</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re6}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> CLI from Codecov: Coverage insights in your terminal</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+         
+      </div>
+     <br /><br /><br /><br /><br />
+       
        <Box gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
             <Image box-shadow= "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" src= "https://about.codecov.io/wp-content/uploads/2020/10/Source-Code-Coverage-1.png"/>
@@ -57,10 +108,8 @@ function Pricing(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
+       
+      
     
        <Box gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
@@ -72,13 +121,50 @@ function Pricing(){
        </Box>
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-     
+       
+       <div id="i1">
+          <div>
+            <img src={re4}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="15px"> May Product Update: Browser Extension and Quality of Life Updates </Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re5}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> How To Maintain A Healthy Codebase Quality update</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re3}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> CLI from Codecov: Coverage insights in your terminal</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+         
+      </div>
+        
+     <br /><br /><br /><br /><br />
        <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
             <Image box-shadow= "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" src={Check}/>
@@ -90,14 +176,50 @@ function Pricing(){
 
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-        
+      
+       {/* <div id="i1">
+          <div>
+            <img src={re4}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="15px"> May Product Update: Browser Extension and Quality of Life Updates </Text>
 
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re5}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> How To Maintain A Healthy Codebase Quality update</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re3}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> CLI from Codecov: Coverage insights in your terminal</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+         
+      </div> */}
+
+<br /><br /><br /> 
        <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box box-shadow= "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" height="330px" width="60%"  >
             <Image box-shadow= "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" src="https://about.codecov.io/wp-content/uploads/2020/10/Notifications.png"/>
@@ -111,11 +233,7 @@ function Pricing(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
- 
-       
+        
 
        <div id="container6">
     <br />
@@ -163,15 +281,7 @@ function Pricing(){
                 <h4   class="V5">@ Codecov 2022</h4>
               </div>
              </div>
-
-
-
-
-
-
-
-
-       
+  
        </Box>
     )
 }

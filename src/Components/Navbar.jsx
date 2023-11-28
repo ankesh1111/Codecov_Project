@@ -24,7 +24,7 @@ function Navbar(){
             <Box   bgColor='black.500' gap={5} display="flex" marginLeft="370px" marginTop="-175px">
             
             <Text color="#0F1B29" className="re1" fontSize='lg'><Link to="/product"> Product</Link> </Text>
-            <Text color="#0F1B29" className="re1"  fontSize='lg'><Link to="/documentataion"> Documentataion</Link></Text>
+            <Text color="#0F1B29" className="re1"  fontSize='lg'><Link to="/documentataion"> Documentation</Link></Text>
             <Text color="#0F1B29" className="re1"  fontSize='lg'><Link to="/customers"> Customers </Link></Text>
             <Text color="#0F1B29" className="re1"  fontSize='lg'><Link to="/resources"> Resources</Link> </Text>
             <Text color="#0F1B29" className="re1"  fontSize='lg'><Link to="/pricing"> Pricing</Link> </Text>

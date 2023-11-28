@@ -99,8 +99,7 @@ function Home(){
            <br />
            <br />
            <br />
-           <br />
-           <br />
+            
 
 
            {/* SECOND SECTION */}
@@ -126,9 +125,7 @@ function Home(){
           <br />
           <br />
 
-          <br />
-          <br />
-          <br />
+           
 
 
             {/* Third SECTION */}
@@ -177,11 +174,8 @@ function Home(){
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+         
+          
 
           {/* Fouth section */}
 
@@ -208,10 +202,8 @@ function Home(){
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
+          
+           
 
           
 
@@ -233,7 +225,7 @@ function Home(){
           <br />
           <br />
             <br />
-            <br />
+         
 
             <div id="container4">
                 <div>
@@ -274,7 +266,7 @@ function Home(){
                 </div>
             </div>
             
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+ <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
  <br /><br /><br />
 
   
@@ -288,7 +280,7 @@ function Home(){
 <br />
 <br />
  
- <Button color="#FF0077">View Resources ></Button>
+ <Button color="#FF0077">View Resources</Button>
   
   <br />
   <br />

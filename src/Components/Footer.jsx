@@ -23,7 +23,7 @@ import { FaInstagram , FaDiscourse,FaAngellist, FaYoutube, FaGithub, FaLinkedin,
                 </div>
                <div> < FaTwitterSquare/></div>
             
-               <div>  <  FaGithub/></div>
+               <div>  <FaGithub/></div>
                <div><FaYoutube/></div>
                <div>
                <  FaAngellist/></div>

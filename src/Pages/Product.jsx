@@ -21,10 +21,8 @@ function Product(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
+        
+      
 
        <Box display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
@@ -53,9 +51,7 @@ function Product(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
+        
     
        <Box gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
@@ -69,10 +65,7 @@ function Product(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
+        
      
        <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
@@ -87,10 +80,7 @@ function Product(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
+        
         
 
        <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
@@ -102,9 +92,7 @@ function Product(){
          </Box>
        </Box>
 
-       <br />
-       <br />
-       <br />
+      
        <br />
        <br />
        <br />

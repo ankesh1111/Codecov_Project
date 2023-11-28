@@ -23,10 +23,8 @@ function Documentation(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
+       
+       
 
        <Box display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
@@ -40,7 +38,7 @@ function Documentation(){
        <br />
        <br />
        <br />
-       <br />
+ 
        <Box gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
             <Image box-shadow= "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" src= "https://about.codecov.io/wp-content/uploads/2020/10/Source-Code-Coverage-1.png"/>
@@ -56,8 +54,7 @@ function Documentation(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
+     
     
        <Box gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
@@ -70,12 +67,9 @@ function Documentation(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
-     
+       
+    
+        
        <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
          <Box height="330px" width="60%"  >
             <Image box-shadow= "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px" src={Check}/>
@@ -88,11 +82,8 @@ function Documentation(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
-       <br />
-       <br />
-       <br />
+       
+       
         
 
        <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
@@ -109,8 +100,7 @@ function Documentation(){
        <br />
        <br />
        <br />
-       <br />
-       <br />
+       
  
        
 

@@ -8,6 +8,24 @@
  import Check from "../Image/Check.PNG"
  import Noti from "../Image/Noti.PNG"
  import "./Home.css"
+ import "./resorce.css"
+ import coverage from "../Image/coverage.PNG"
+  
+ import state from "../Image/state.PNG"
+  
+ import third from "../Image/third.PNG"
+
+ import re1 from "../Image/re1.PNG"
+  
+ import re2 from "../Image/re2.PNG"
+  
+ import re3 from "../Image/re3.PNG"
+
+ import re4 from "../Image/re4.PNG"
+  
+ import re5 from "../Image/re5.PNG"
+  
+ import re6 from "../Image/re6.PNG"
  import {Link } from "react-router-dom"
  function Resources(){
  
@@ -23,11 +41,52 @@
         <br />
         <br />
         <br />
+
+        <div id="container5">
+    <div>
+        
+        <img style={{borderRadius:"5px"}} src={coverage} alt="" />
+        <br />
+        <Text fontSize='md' marginLeft="-217px" color="#FF0077">PAGE</Text>
+        <Text as="b" color="black" marginLeft="23px">What should my code coverage goal <br /> be?</Text>
+
         <br />
         <br />
         <br />
+        <hr />
+        <Button  marginTop="4px" marginLeft="160px" height="30px" color="#FF0077">Learn More -></Button>
+    </div>
+    <div>
+        <img src={state} alt="" />
         <br />
+        <Text fontSize='md' marginLeft="-165px"  color="#FF0077">INFOGRAPHIC</Text>
+        <Text as="b" marginLeft="-25px"> 2020 State of Open Source Code <br /> Coverage </Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button marginTop="4px" marginLeft="120px" height="30px" color="#FF0077">View Infographic -></Button>
+    </div>
+    <div>
+        <img src={third} alt="" />
+        <br />
+        
+        <Text fontSize='md' marginLeft="-180px" color="#FF0077">BLOG POST</Text>
+        <Text as="b" marginLeft="10px"> 8 Factors Influencing Your Approach <br /> to Code Coverage  </Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button  marginTop="4px" marginLeft="140px" height="30px" color="#FF0077"> Read Blog Post -></Button>
+    </div>
+  </div>
+
+<br /><br /><br />
+        
  
+      <br /><br /><br />
         <Box display="flex" margin="auto"  width="70%" height="330px">
           <Box height="330px" width="60%"  >
              <Image src={Imapct}/>
@@ -54,6 +113,46 @@
         <br />
         <br />
         <br />
+        <div id="container5">
+    <div>
+        
+        <img style={{borderRadius:"5px"}} src={coverage} alt="" />
+        <br />
+        <Text fontSize='md' marginLeft="-217px" color="#FF0077">PAGE</Text>
+        <Text as="b" color="black" marginLeft="23px">What should my code coverage goal <br /> be?</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button  marginTop="4px" marginLeft="160px" height="30px" color="#FF0077">Learn More -></Button>
+    </div>
+    <div>
+        <img src={state} alt="" />
+        <br />
+        <Text fontSize='md' marginLeft="-165px"  color="#FF0077">INFOGRAPHIC</Text>
+        <Text as="b" marginLeft="-25px"> 2020 State of Open Source Code <br /> Coverage </Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button marginTop="4px" marginLeft="120px" height="30px" color="#FF0077">View Infographic -></Button>
+    </div>
+    <div>
+        <img src={third} alt="" />
+        <br />
+        
+        <Text fontSize='md' marginLeft="-180px" color="#FF0077">BLOG POST</Text>
+        <Text as="b" marginLeft="10px"> 8 Factors Influencing Your Approach <br /> to Code Coverage  </Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button  marginTop="4px" marginLeft="140px" height="30px" color="#FF0077"> Read Blog Post -></Button>
+    </div>
+  </div>
         <br />
         <br />
         <br />
@@ -69,12 +168,53 @@
         </Box>
         <br />
         <br />
+         
+        
+      
+      <div id="i1">
+          <div>
+            <img src={re1}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="15px"> May Product Update: Browser Extension and Quality of Life Updates </Text>
+
         <br />
         <br />
         <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re2}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> How To Maintain A Healthy Codebase Quality update</Text>
+
         <br />
         <br />
         <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+
+          <div>
+            <img src={re6}/>
+            <Text fontSize='md' marginTop="15px" marginLeft="-250px" color="#FF0077">PAGE</Text>
+            <br />
+        <Text as="b"  color="black" marginLeft="2px"> CLI from Codecov: Coverage insights in your terminal</Text>
+
+        <br />
+        <br />
+        <br />
+        <hr />
+        <Button fontSize="19px"  marginTop="20px" marginLeft="160px" height="50px" color="#FF0077">Learn More -></Button>
+          </div>
+         
+      </div>
+          
+
+       <br /><br /><br />
       
         <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
           <Box height="330px" width="60%"  >
@@ -88,11 +228,8 @@
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        
+         
          
  
         <Box   gap="20px" display="flex" margin="auto"  width="70%" height="330px">
@@ -108,9 +245,7 @@
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
+       
   
         
  
